@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pageflow:Pageflow xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:pageflow="http://www.sybase.com/suade/pageflow" id="pf14837304516820" configfile="/FinanceiroNovo/src/main/webapp/WEB-INF/faces-config.xml">
+  <nodes xsi:type="pageflow:PFPage" name="*" id="pf14837306147814" referenceLink="//@navigationRule.0/@fromViewId|" outlinks="pf14837306147815" path="*"/>
+  <nodes xsi:type="pageflow:PFPage" name="Ola.xhtml" id="pf14837306147816" referenceLink="//@navigationRule.0/@navigationCase.0/@toViewId|" inlinks="pf14837306147815" path="/Ola.xhtml"/>
+  <links id="pf14837306147815" target="pf14837306147816" source="pf14837306147814" outcome="oi"/>
+</pageflow:Pageflow>
